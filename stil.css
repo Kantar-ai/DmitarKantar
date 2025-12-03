@@ -8,6 +8,16 @@ ul {
   background-color: #4A4A4A; /* siva pozadina menija */
   display: flex;
 }
+@media (max-width: 600px) {
+  ul {
+    flex-direction: column;
+  }
+
+  ul li a {
+    padding: 16px;
+    text-align: center;
+  }
+}
 
 ul li a {
   display: block;
@@ -160,3 +170,4 @@ p, span, div {
 .logo-img:hover {
   transform: scale(1.3);
 }
+
