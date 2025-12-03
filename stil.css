@@ -1,0 +1,162 @@
+/* ============================================ 
+   НАВИГАЦИОНИ МЕНИ - ПОБОЉШАН
+   ============================================ */
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4A4A4A; /* siva pozadina menija */
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: #FFFFFF; /* bela boja teksta */
+  padding: 18px 24px;  
+  text-decoration: none;
+  font-size: 14px;     
+  font-weight: bold;
+}
+
+ul li a:hover {
+  background-color: #FF6B6B; /* koralna hover pozadina */
+  color: #FFFFFF;
+}
+
+/* ============================================
+   ОПШТИ СТИЛОВИ
+   ============================================ */
+body {
+  background-color: #FFFFFF; /* bela pozadina */
+  color: #4A4A4A; /* sivi tekst */
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #4A4A4A;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* ============================================
+   ФОНТ ЗА INDEX.HTML (са usemap)
+   ============================================ */
+.indekstekst {
+   font-size: 26px;
+   font-family: "Times New Roman";
+   line-height: 1.6;
+   color: #4A4A4A;
+}
+
+/* ============================================
+   ФОНТ ЗА ДИВИЗИЈСКЕ СТРАНИЦЕ
+   ============================================ */
+.division-text {
+   font-size: 26px;
+   font-family: Verdana;
+   line-height: 1.6;
+   color: #4A4A4A;
+}
+
+/* ============================================
+   ТАБЕЛЕ
+   ============================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF; /* bela pozadina tabele */
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  font-size: 26px;
+}
+
+th, td {
+  border: 1px solid #4A4A4A;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #4A4A4A; /* siva zaglavlja */
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+tfoot td {
+  background-color: #FF6B6B; /* koralna footer */
+  color: #FFFFFF;
+  font-style: italic;
+  text-align: center;
+}
+
+/* ============================================
+   СЛИКЕ
+   ============================================ */
+img {
+  display: block;
+  margin: auto;
+  height: auto;
+  border: 2px solid #4A4A4A;
+}
+
+/* ============================================
+   ТЕКСТ
+   ============================================ */
+p, span, div {
+  color: #4A4A4A;
+  line-height: 1.6;
+}
+
+/* link ka oficijalnoj tabeli */
+.zoom {
+  text-align: center;
+}
+.zoom a {
+  display: inline-block;
+  color: #4A4A4A;
+  text-decoration: none;
+  font-size: 30px;  
+}
+.zoom a:hover {
+  transform: scale(1.15);
+  color: #FF6B6B; /* koralna hover boja */
+}
+
+/* istaknuti igraci */
+.player {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.player-img {
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.player-img:hover {
+  transform: scale(1.05);
+}
+
+.player-caption {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+/* konferencija logo */
+.logo-img {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.3);
+}
